@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SqliteTool_Example' do
+  pod 'SqliteTool', :path => '../'
+
+  target 'SqliteTool_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
