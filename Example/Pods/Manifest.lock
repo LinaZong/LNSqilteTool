@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SqliteTool (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SqliteTool (from `../`)
+
+EXTERNAL SOURCES:
+  SqliteTool:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SqliteTool: 4d6a6eeeba96d38c1bb2ddc86a69c8344fcc91a1
+
+PODFILE CHECKSUM: 02bb14336ab09597b61a8aa6c3dd4e817d12a95c
+
+COCOAPODS: 1.3.0.beta.2

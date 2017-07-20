@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5AB37B1F1EF87B003493C9 /* LNSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5AB37A1F1EF87B003493C9 /* LNSqliteTool.m */; };
+		0C5AB37D1F1EF8CC003493C9 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5AB37C1F1EF8CC003493C9 /* libsqlite3.0.tbd */; };
+		0C5AB37F1F1EF8EF003493C9 /* LNSqliteToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5AB37E1F1EF8EF003493C9 /* LNSqliteToolTest.m */; };
+		0C5AB3821F1F3B97003493C9 /* LNModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5AB3811F1F3B97003493C9 /* LNModelTool.m */; };
+		0C5AB3851F1F3C7C003493C9 /* LNStu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5AB3841F1F3C7C003493C9 /* LNStu.m */; };
+		0C5AB3881F1F3D0F003493C9 /* LNStu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5AB3871F1F3D0F003493C9 /* LNStu.plist */; };
+		0C5AB38B1F1F43B4003493C9 /* LNSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5AB38A1F1F43B4003493C9 /* LNSqliteModelTool.m */; };
+		0C5AB38E1F1F4688003493C9 /* LNSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5AB38D1F1F4688003493C9 /* LNSqliteModelTool.m */; };
+		0C8C70931F204C9000B167D2 /* LNTableTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8C70921F204C9000B167D2 /* LNTableTool.m */; };
 		2722CFC369CDC466C7BEC7AD /* Pods_SqliteTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F64827F0396CF1F1B294D8 /* Pods_SqliteTool_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,9 +47,24 @@
 
 /* Begin PBXFileReference section */
 		061C66F0A4A2B9849713CB2B /* Pods_SqliteTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SqliteTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5AB3791F1EF87B003493C9 /* LNSqliteTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNSqliteTool.h; sourceTree = "<group>"; };
+		0C5AB37A1F1EF87B003493C9 /* LNSqliteTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNSqliteTool.m; sourceTree = "<group>"; };
+		0C5AB37C1F1EF8CC003493C9 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		0C5AB37E1F1EF8EF003493C9 /* LNSqliteToolTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNSqliteToolTest.m; sourceTree = "<group>"; };
+		0C5AB3801F1F3B97003493C9 /* LNModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNModelTool.h; sourceTree = "<group>"; };
+		0C5AB3811F1F3B97003493C9 /* LNModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNModelTool.m; sourceTree = "<group>"; };
+		0C5AB3831F1F3C7C003493C9 /* LNStu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNStu.h; sourceTree = "<group>"; };
+		0C5AB3841F1F3C7C003493C9 /* LNStu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNStu.m; sourceTree = "<group>"; };
+		0C5AB3871F1F3D0F003493C9 /* LNStu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LNStu.plist; sourceTree = "<group>"; };
+		0C5AB3891F1F43B4003493C9 /* LNSqliteModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNSqliteModelTool.h; sourceTree = "<group>"; };
+		0C5AB38A1F1F43B4003493C9 /* LNSqliteModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNSqliteModelTool.m; sourceTree = "<group>"; };
+		0C5AB38C1F1F444F003493C9 /* LNModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNModelProtocol.h; sourceTree = "<group>"; };
+		0C5AB38D1F1F4688003493C9 /* LNSqliteModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNSqliteModelTool.m; sourceTree = "<group>"; };
+		0C8C70911F204C9000B167D2 /* LNTableTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTableTool.h; sourceTree = "<group>"; };
+		0C8C70921F204C9000B167D2 /* LNTableTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNTableTool.m; sourceTree = "<group>"; };
 		13010D0F204418B36F6A826D /* Pods-SqliteTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SqliteTool_Example/Pods-SqliteTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		345FAEB8DBDEFD77ED6E7BC7 /* Pods-SqliteTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SqliteTool_Tests/Pods-SqliteTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		46AFD0BE4C4C20FD8A173E29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		46AFD0BE4C4C20FD8A173E29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		55F64827F0396CF1F1B294D8 /* Pods_SqliteTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SqliteTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SqliteTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqliteTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,8 +88,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A96FB0969F845473B4FD7259 /* Pods-SqliteTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SqliteTool_Tests/Pods-SqliteTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BFA7E7CCE4B18BC1B576BE4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D1BAD2ABAAAEC2E57EE4C85F /* SqliteTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SqliteTool.podspec; path = ../SqliteTool.podspec; sourceTree = "<group>"; };
+		BFA7E7CCE4B18BC1B576BE4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D1BAD2ABAAAEC2E57EE4C85F /* SqliteTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SqliteTool.podspec; path = ../SqliteTool.podspec; sourceTree = "<group>"; };
 		D4D3413C391A130AC02BE8EB /* Pods-SqliteTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SqliteTool_Example/Pods-SqliteTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5AB37D1F1EF8CC003493C9 /* libsqlite3.0.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -95,6 +120,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C5AB3781F1EF87B003493C9 /* SqliteClasses */ = {
+			isa = PBXGroup;
+			children = (
+				0C5AB3791F1EF87B003493C9 /* LNSqliteTool.h */,
+				0C5AB37A1F1EF87B003493C9 /* LNSqliteTool.m */,
+				0C5AB3891F1F43B4003493C9 /* LNSqliteModelTool.h */,
+				0C5AB38A1F1F43B4003493C9 /* LNSqliteModelTool.m */,
+				0C5AB3801F1F3B97003493C9 /* LNModelTool.h */,
+				0C5AB3811F1F3B97003493C9 /* LNModelTool.m */,
+				0C5AB38C1F1F444F003493C9 /* LNModelProtocol.h */,
+				0C8C70911F204C9000B167D2 /* LNTableTool.h */,
+				0C8C70921F204C9000B167D2 /* LNTableTool.m */,
+			);
+			path = SqliteClasses;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +160,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C5AB37C1F1EF8CC003493C9 /* libsqlite3.0.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -132,11 +174,15 @@
 		6003F593195388D20070C39A /* Example for SqliteTool */ = {
 			isa = PBXGroup;
 			children = (
+				0C5AB3781F1EF87B003493C9 /* SqliteClasses */,
 				6003F59C195388D20070C39A /* LNAppDelegate.h */,
 				6003F59D195388D20070C39A /* LNAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LNViewController.h */,
 				6003F5A6195388D20070C39A /* LNViewController.m */,
+				0C5AB3831F1F3C7C003493C9 /* LNStu.h */,
+				0C5AB3841F1F3C7C003493C9 /* LNStu.m */,
+				0C5AB3871F1F3D0F003493C9 /* LNStu.plist */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -160,6 +206,8 @@
 			isa = PBXGroup;
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
+				0C5AB37E1F1EF8EF003493C9 /* LNSqliteToolTest.m */,
+				0C5AB38D1F1F4688003493C9 /* LNSqliteModelTool.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -282,6 +330,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				0C5AB3881F1F3D0F003493C9 /* LNStu.plist in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,9 +455,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C8C70931F204C9000B167D2 /* LNTableTool.m in Sources */,
+				0C5AB3851F1F3C7C003493C9 /* LNStu.m in Sources */,
 				6003F59E195388D20070C39A /* LNAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LNViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0C5AB37B1F1EF87B003493C9 /* LNSqliteTool.m in Sources */,
+				0C5AB38B1F1F43B4003493C9 /* LNSqliteModelTool.m in Sources */,
+				0C5AB3821F1F3B97003493C9 /* LNModelTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +471,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				0C5AB37F1F1EF8EF003493C9 /* LNSqliteToolTest.m in Sources */,
+				0C5AB38E1F1F4688003493C9 /* LNSqliteModelTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

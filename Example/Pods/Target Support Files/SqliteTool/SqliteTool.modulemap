@@ -1,0 +1,6 @@
+framework module SqliteTool {
+  umbrella header "SqliteTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

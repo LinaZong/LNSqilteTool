@@ -7,7 +7,7 @@
 //
 
 #import "LNViewController.h"
-
+#import "LNSqliteModelTool.h"
 @interface LNViewController ()
 
 @end
@@ -17,7 +17,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	  
+    Class cls = NSClassFromString(@"LNStu");
+    BOOL result = [LNSqliteModelTool createTable:cls uid:nil];
+   
+    NSLog(@"%d",result);
+    
 }
 
 - (void)didReceiveMemoryWarning
